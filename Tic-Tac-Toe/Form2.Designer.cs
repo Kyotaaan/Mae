@@ -39,7 +39,7 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Cambria", 48F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Cambria", 48F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             label1.ForeColor = Color.Brown;
             label1.Location = new Point(186, 49);
             label1.Name = "label1";
@@ -49,18 +49,19 @@
             // 
             // AdminUser
             // 
-            AdminUser.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            AdminUser.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             AdminUser.Location = new Point(358, 148);
             AdminUser.Multiline = true;
             AdminUser.Name = "AdminUser";
             AdminUser.Size = new Size(187, 37);
             AdminUser.TabIndex = 1;
+            AdminUser.TextChanged += AdminUser_TextChanged;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Cambria", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Cambria", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.Brown;
             label2.Location = new Point(177, 148);
             label2.Name = "label2";
@@ -72,7 +73,7 @@
             // 
             button2.BackColor = Color.LightPink;
             button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Cambria", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.Font = new Font("Cambria", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = Color.Brown;
             button2.Location = new Point(476, 210);
             button2.Name = "button2";

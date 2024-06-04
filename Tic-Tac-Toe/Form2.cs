@@ -19,8 +19,7 @@ namespace Tic_Tac_Toe
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
-
+            //
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -40,6 +39,11 @@ namespace Tic_Tac_Toe
                 this.Hide();
             }
             AdminUser.Text = "";
+        }
+
+        private void AdminUser_TextChanged(object sender, EventArgs e)
+        {
+            AdminUser.PasswordChar = '*';
         }
     }
 }
