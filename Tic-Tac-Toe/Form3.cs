@@ -127,7 +127,7 @@ namespace Tic_Tac_Toe
 
         private void textbox7_TextChanged(object sender, EventArgs e)
         {
-            textbox7.PasswordChar = '*';
+            textbox7.PasswordChar = '*';//
 
         }
 
