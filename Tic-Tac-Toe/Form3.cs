@@ -32,7 +32,7 @@ namespace Tic_Tac_Toe
 
         private void textbox2_TextChanged(object sender, EventArgs e)
         {
-
+            textbox2.PasswordChar = '*';
         }
 
         private void button2_Click_1(object sender, EventArgs e)
@@ -78,6 +78,7 @@ namespace Tic_Tac_Toe
 
         private void textbox4_TextChanged(object sender, EventArgs e)
         {
+            textbox4.PasswordChar = '*';
 
         }
 
@@ -120,11 +121,13 @@ namespace Tic_Tac_Toe
 
         private void textbox6_TextChanged(object sender, EventArgs e)
         {
+            textbox6.PasswordChar = '*';
 
         }
 
         private void textbox7_TextChanged(object sender, EventArgs e)
         {
+            textbox7.PasswordChar = '*';
 
         }
 
